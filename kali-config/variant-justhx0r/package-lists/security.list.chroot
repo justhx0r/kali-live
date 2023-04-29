@@ -18,3 +18,10 @@ onioncircuits
 vanguards
 nyx
 riseup-vpn
+ufw
+uwt
+apparmor-profile-dist
+dist-base-files
+uwt
+bootclockrandomization
+timesanitycheck
