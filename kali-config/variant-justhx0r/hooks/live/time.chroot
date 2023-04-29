@@ -1,0 +1,8 @@
+#!/bin/sh
+systemctl enable bootclockrandomization timesanitycheck
+cd /lib/systemd/system
+for a in `ls sdwdate`; do
+	sed -i s'/SystemCallFilter.*/#Syscall filter not available in kali yet/' $a
+	systemctl enable $a
+done
+ 
